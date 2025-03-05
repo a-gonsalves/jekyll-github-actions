@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 ruby "3.4.2"
+gem "csv"
+gem "base64"
 
 gem "jekyll", "~> 4.4.1"
 
