@@ -8,11 +8,15 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-ruby "3.4.2"
+# Remove the Ruby version specification - comment out
+# ruby "3.4.2" 
+
+# Essential gems
 gem "csv"
 gem "base64"
 
-gem "jekyll", "~> 4.4.1"
+# local Jekyll gem - comment out
+# gem "jekyll", "~> 4.4.1"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
